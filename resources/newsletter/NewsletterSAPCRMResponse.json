@@ -1,0 +1,80 @@
+{
+  "consumer": "0001",
+  "vkorg": "1110",
+  "source": "hybris",
+  "bpid": "0000152423",
+  "identificationnumber": "1",
+  "regTrigger": "Marketing Aktion",
+  "recipient": {
+    "firstname": "string",
+    "lastname": "string",
+    "secondname": "string",
+    "title_aca": "Ph.D.",
+    "birthdate": "2020-01-11",
+    "title": "Mr",
+    "status": "confirmed"
+  },
+  "address": {
+    "emailAddress": "max@musterman.de",
+    "city": "Musterstadt",
+    "postalCode": "99999",
+    "street": "Musterstrasse",
+    "houseNo": "99",
+    "countryIso": "DE",
+    "phone": "+49 99 99999",
+    "mobile": "+49 999 99999"
+  },
+  "interets": [
+    "aquaristic","mistress_and_master","dog","cat","small_animal_or_rodent","horse","garden_and_pond","terraristic","bird"
+  ],
+  "pets": [
+    {
+      "id": 1,
+      "name": "Musterdog",
+      "type": "cat",
+      "birthday": "2020-01-11"
+    },
+    {
+      "id": 2,
+      "name": "Musterdog",
+      "type": "dog",
+      "birthday": "2020-01-11"
+    },
+    {
+      "id": 3,
+      "name": "Musterdog",
+      "type": "small_animal_or_rodent",
+      "birthday": "2020-01-11"
+    },
+    {
+      "id": 4,
+      "name": "Musterdog",
+      "type": "bird",
+      "birthday": "2020-01-11"
+    },
+    {
+      "id": 5,
+      "name": "Musterdog",
+      "type": "terraristics",
+      "birthday": "2020-01-11"
+    }
+  ],
+  "stores": [
+    {
+      "id": 1,
+      "store": "2525"
+    },
+    {
+      "id": 2,
+      "store": "55"
+    },
+    {
+      "id": 3,
+      "store": "315"
+    }
+  ],
+  "offers": [
+    "online",
+    "market"
+  ]
+}

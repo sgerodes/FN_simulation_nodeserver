@@ -1,0 +1,107 @@
+[{
+  "headerData": {
+    "sapOrderCode": "0001",
+    "vkorg": "1110",
+    "customerid": "070004053",
+    "hybrisOrderCode": "707521008",
+    "orderOverallStatus": {
+      "sapGesamtStatus": "A",
+      "sapAbsageStatus": "A",
+      "sapLieferStatus": "A",
+      "sapRetourenStatus": "A",
+      "sapCancelMessage": "ZS"
+    },
+    "orderDate": "2019-12-31 07:00:01",
+    "totalAmount": 28.12,
+    "currency": "EUR",
+    "language": "de"
+  },
+  "soldToCustomerData": {
+    "title_aca": "Ph.D.",
+    "firstname": "Max",
+    "secondname": "M.",
+    "lastname": "Mustermann",
+    "coName": "z.Hd. Frau Mustermann",
+    "street": "Musterstrasse",
+    "houseNo": "99",
+    "postalCode": "99999",
+    "city": "Musterstadt",
+    "countryIso": "DE",
+    "phone": "+49 99 99999",
+    "mobile": "+49 999 99999",
+    "emailAddress": "max@musterman.de"
+  },
+  "shippedToCustomerData": {
+    "title_aca": "Ph.D.",
+    "firstname": "Max",
+    "secondname": "M.",
+    "lastname": "Mustermann",
+    "coName": "z.Hd. Frau Mustermann",
+    "street": "Musterstrasse",
+    "houseNo": "99",
+    "postalCode": "99999",
+    "city": "Musterstadt",
+    "countryIso": "DE",
+    "phone": "+49 99 99999",
+    "mobile": "+49 999 99999",
+    "emailAddress": "max@musterman.de"
+  },
+  "consignment": {
+    "consignmentType": "PARCEL",
+    "trackingId": "1122334455",
+    "carrierId": "2503311",
+    "carrierName": "DHL",
+    "sapDeliveryId": "2503311",
+    "positions": [
+      0
+    ]
+  },
+  "paymentTypes": {
+    "paymentType": "01",
+    "paymentType2": "07"
+  },
+  "items": {
+    "position": 0,
+    "product": "1101022",
+    "amount": 2,
+    "price": 28.14,
+    "itemStatus": {
+      "sapGesamtStatus": "A",
+      "sapAbsageStatus": "A",
+      "sapLieferStatus": "A",
+      "sapRetourenStatus": "A",
+      "sapCancelMessage": "ZS"
+    }
+  },
+  "sumBox": {
+    "finalAmountGrossValue": 23.99,
+    "totalGrossDiscount": 2.79,
+    "freightGross": 2.99,
+    "totalGrossValue": 23.99,
+    "paybackGrossDiscount": 5
+  },
+  "vouchers": {
+    "voucher": {
+      "voucherid": "164",
+      "voucherText": "10% Gutschein",
+      "voucherGrossDiscount": 1.67
+    }
+  },
+  "loyalty": {
+    "cardId": "0097233997",
+    "programmId": "001",
+    "basisPoints": 11,
+    "specialPoints": 44,
+    "opportunityPoints": 0,
+    "anniversaryPoints": 0,
+    "redemptionPoints": 0
+  },
+  "loyaltyCoupons": {
+    "couponId": "PB-BP",
+    "programmId": "001",
+    "marketingText": "Gewinnchance & 5fach Punkte",
+    "couponValue": 44,
+    "couponType": 1
+  }
+}
+]
