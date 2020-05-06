@@ -1,80 +1,148 @@
 {
-  "consumer": "0001",
-  "vkorg": "1110",
-  "source": "hybris",
-  "bpid": "0000152423",
-  "identificationnumber": "1",
-  "regTrigger": "Marketing Aktion",
-  "recipient": {
-    "firstname": "string",
-    "lastname": "string",
-    "secondname": "string",
-    "title_aca": "Ph.D.",
-    "birthdate": "2020-01-11",
-    "title": "Mr",
-    "status": "confirmed"
-  },
-  "address": {
-    "emailAddress": "max@musterman.de",
-    "city": "Musterstadt",
-    "postalCode": "99999",
-    "street": "Musterstrasse",
-    "houseNo": "99",
-    "countryIso": "DE",
-    "phone": "+49 99 99999",
-    "mobile": "+49 999 99999"
-  },
-  "interets": [
-    "aquaristic","mistress_and_master","dog","cat","small_animal_or_rodent","horse","garden_and_pond","terraristic","bird"
-  ],
-  "pets": [
-    {
-      "id": 1,
-      "name": "Musterdog",
-      "type": "cat",
-      "birthday": "2020-01-11"
+  "d": {
+    "__metadata": {
+      "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('22031794')",
+      "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('22031794')",
+      "type": "ZDP_NEWSLETTER_SRV.newsletter"
     },
-    {
-      "id": 2,
-      "name": "Musterdog",
-      "type": "dog",
-      "birthday": "2020-01-11"
+    "consumer": "",
+    "identificationnumber": "22031794",
+    "vkorg": "1110",
+    "source": "",
+    "bpid": "570000565",
+    "regTrigger": "",
+    "interestSet": {
+      "results": []
     },
-    {
-      "id": 3,
-      "name": "Musterdog",
-      "type": "small_animal_or_rodent",
-      "birthday": "2020-01-11"
+    "recipient": {
+      "__metadata": {
+        "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('22031794')",
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('22031794')",
+        "type": "ZDP_NEWSLETTER_SRV.recipient"
+      },
+      "identificationnumber": "22031794",
+      "firstname": "Karin",
+      "lastname": "Marby",
+      "secondname": "",
+      "title_aca": "",
+      "birthdate": "19640423",
+      "title": "Ms",
+      "status": "confirmed"
     },
-    {
-      "id": 4,
-      "name": "Musterdog",
-      "type": "bird",
-      "birthday": "2020-01-11"
+    "address": {
+      "__metadata": {
+        "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('22031794')",
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('22031794')",
+        "type": "ZDP_NEWSLETTER_SRV.address"
+      },
+      "identificationnumber": "22031794",
+      "emailAddress": "hallo@test.de",
+      "city": "Reinstedt",
+      "postalCode": "06463",
+      "street": "Tie",
+      "houseNo": "140",
+      "countryIso": "DE",
+      "phone": "+49 (1234)",
+      "mobile": "+49 (56789)"
     },
-    {
-      "id": 5,
-      "name": "Musterdog",
-      "type": "terraristics",
-      "birthday": "2020-01-11"
+    "offerSet": {
+      "results": [{
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.offer"
+        },
+        "identificationnumber": "22031794",
+        "offerValue": "online"
+      }]
+    },
+    "petSet": {
+      "results": [{
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.pet"
+        },
+        "identificationnumber": "22031794",
+        "id": "1",
+        "name": "Tier 1",
+        "type": "dog",
+        "birthday": "01.01.2001"
+      }, {
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.pet"
+        },
+        "identificationnumber": "22031794",
+        "id": "2",
+        "name": "Tier 2",
+        "type": "cat",
+        "birthday": "02.02.2002"
+      }, {
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.pet"
+        },
+        "identificationnumber": "22031794",
+        "id": "3",
+        "name": "Tier 3",
+        "type": "small_animal_or_rodent",
+        "birthday": "03.03.2003"
+      }, {
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.pet"
+        },
+        "identificationnumber": "22031794",
+        "id": "4",
+        "name": "Tier 4",
+        "type": "horse",
+        "birthday": "04.04.2004"
+      }, {
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.pet"
+        },
+        "identificationnumber": "22031794",
+        "id": "5",
+        "name": "Tier 5",
+        "type": "terraristics",
+        "birthday": "05.05.2005"
+      }]
+    },
+    "storeSet": {
+      "results": [{
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.store"
+        },
+        "identificationnumber": "22031794",
+        "id": "1",
+        "storeValue": "7991"
+      }, {
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.store"
+        },
+        "identificationnumber": "22031794",
+        "id": "2",
+        "storeValue": "7992"
+      }, {
+        "__metadata": {
+          "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('22031794')",
+          "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('22031794')",
+          "type": "ZDP_NEWSLETTER_SRV.store"
+        },
+        "identificationnumber": "22031794",
+        "id": "3",
+        "storeValue": "7993"
+      }]
     }
-  ],
-  "stores": [
-    {
-      "id": 1,
-      "store": "2525"
-    },
-    {
-      "id": 2,
-      "store": "55"
-    },
-    {
-      "id": 3,
-      "store": "315"
-    }
-  ],
-  "offers": [
-    "online",
-    "market"
-  ]
+  }
 }

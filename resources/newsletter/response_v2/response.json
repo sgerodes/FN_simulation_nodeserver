@@ -1,0 +1,251 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('0000111117')",
+      "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('0000111117')",
+      "type": "ZDP_NEWSLETTER_SRV.newsletter"
+    },
+    "consumer": "",
+    "identificationnumber": "0000111117",
+    "vkorg": "1110",
+    "source": "",
+    "bpid": "570001578",
+    "regTrigger": "",
+    "interestSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "aquaristic"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "mistress_and_master"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "garden_and_pond"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "dog"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "cat"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "small_animal_or_rodent"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "horse"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "terraristic"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "0000111117",
+          "interestValue": "bird"
+        }
+      ]
+    },
+    "recipient": {
+      "__metadata": {
+        "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('0000111117')",
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('0000111117')",
+        "type": "ZDP_NEWSLETTER_SRV.recipient"
+      },
+      "identificationnumber": "0000111117",
+      "firstname": "Othman2",
+      "lastname": "L1",
+      "secondname": "",
+      "title_aca": "Ph.D.",
+      "birthdate": "20100101",
+      "title": "Mr",
+      "status": "new"
+    },
+    "address": {
+      "__metadata": {
+        "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('0000111117')",
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('0000111117')",
+        "type": "ZDP_NEWSLETTER_SRV.address"
+      },
+      "identificationnumber": "0000111117",
+      "emailAddress": "test1@test.de",
+      "city": "C1",
+      "postalCode": "11111",
+      "street": "St1",
+      "houseNo": "1",
+      "countryIso": "DE",
+      "phone": "+49 (111) 11111",
+      "mobile": "+49 (111) 11111"
+    },
+    "offerSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.offer"
+          },
+          "identificationnumber": "0000111117",
+          "offerValue": "market"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.offer"
+          },
+          "identificationnumber": "0000111117",
+          "offerValue": "online"
+        }
+      ]
+    },
+    "petSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "0000111117",
+          "id": "1",
+          "name": "my Cat",
+          "type": "cat",
+          "birthday": "11.01.2000"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "0000111117",
+          "id": "2",
+          "name": "my Dog",
+          "type": "dog",
+          "birthday": "12.01.2000"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "0000111117",
+          "id": "3",
+          "name": "myRodent",
+          "type": "small_animal_or_rodent",
+          "birthday": "13.01.2020"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "0000111117",
+          "id": "4",
+          "name": "myBird",
+          "type": "bird",
+          "birthday": "14.01.2020"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "0000111117",
+          "id": "5",
+          "name": "myTerra",
+          "type": "terraristics",
+          "birthday": "15.01.2020"
+        }
+      ]
+    },
+    "storeSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.store"
+          },
+          "identificationnumber": "0000111117",
+          "id": "1",
+          "storeValue": "2525"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.store"
+          },
+          "identificationnumber": "0000111117",
+          "id": "2",
+          "storeValue": "0123"
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('0000111117')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('0000111117')",
+            "type": "ZDP_NEWSLETTER_SRV.store"
+          },
+          "identificationnumber": "0000111117",
+          "id": "3",
+          "storeValue": "4711"
+        }
+      ]
+    }
+  }
+}

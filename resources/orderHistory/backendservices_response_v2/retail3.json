@@ -1,0 +1,366 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/HeaderDataSet('0502223705')",
+          "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/HeaderDataSet('0502223705')",
+          "type": "Z_SD_ODATA_ORD_HIST_SRV.HeaderData"
+        },
+        "SapOrderCode": "0502223705",
+        "Vkorg": "1110",
+        "CustomerId": "34234009",
+        "ShipTo": "0009737475",
+        "HybrisOrderCode": "707529023",
+        "OrderOverallStatus": "A",
+        "OrderOverallAbsageStatus": "",
+        "OrderOverallLieferStatus": "",
+        "OrderOverallRetourenStatus": "",
+        "OrderDate": "26.04.2020 14:45:4",
+        "TotalAmount": "    29.06",
+        "Currency": "EUR",
+        "Language": "DE",
+        "HeaderToItems": {
+          "results": [
+            {
+              "__metadata": {
+                "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223705',Position='000010')",
+                "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223705',Position='000010')",
+                "type": "Z_SD_ODATA_ORD_HIST_SRV.Items"
+              },
+              "SapOrderCode": "0502223705",
+              "Position": "000010",
+              "Product": "000000000001099134",
+              "Quantity": "    1.000",
+              "Price": "     5.99",
+              "ItemStatus": "A",
+              "AbsageStatus": "A",
+              "LieferStatus": "A",
+              "SapCancelMessage": "",
+              "RetourenStatus": "",
+              "PaymentType": "05",
+              "PaymentType2": "00",
+              "ItemToDelivery": {
+                "results": []
+              }
+            },
+            {
+              "__metadata": {
+                "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223705',Position='000030')",
+                "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223705',Position='000030')",
+                "type": "Z_SD_ODATA_ORD_HIST_SRV.Items"
+              },
+              "SapOrderCode": "0502223705",
+              "Position": "000030",
+              "Product": "000000001214293001",
+              "Quantity": "    1.000",
+              "Price": "     8.99",
+              "ItemStatus": "A",
+              "AbsageStatus": "A",
+              "LieferStatus": "A",
+              "SapCancelMessage": "",
+              "RetourenStatus": "",
+              "PaymentType": "05",
+              "PaymentType2": "00",
+              "ItemToDelivery": {
+                "results": []
+              }
+            },
+            {
+              "__metadata": {
+                "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223705',Position='000040')",
+                "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223705',Position='000040')",
+                "type": "Z_SD_ODATA_ORD_HIST_SRV.Items"
+              },
+              "SapOrderCode": "0502223705",
+              "Position": "000040",
+              "Product": "000000000001094172",
+              "Quantity": "    1.000",
+              "Price": "    13.99",
+              "ItemStatus": "A",
+              "AbsageStatus": "A",
+              "LieferStatus": "A",
+              "SapCancelMessage": "",
+              "RetourenStatus": "",
+              "PaymentType": "05",
+              "PaymentType2": "00",
+              "ItemToDelivery": {
+                "results": []
+              }
+            }
+          ]
+        },
+        "HeaderToVouchers": {
+          "results": [
+            {
+              "__metadata": {
+                "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/VouchersSet(VoucherId='',SapOrderCode='0502223705')",
+                "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/VouchersSet(VoucherId='',SapOrderCode='0502223705')",
+                "type": "Z_SD_ODATA_ORD_HIST_SRV.Vouchers"
+              },
+              "VoucherId": "",
+              "VoucherText": "10% Gutschein",
+              "VoucherGrossDiscount": "     2.90-",
+              "SapOrderCode": "0502223705"
+            }
+          ]
+        },
+        "HeaderToCoupons": {
+          "results": []
+        },
+        "HeaderToSumBox": {
+          "__metadata": {
+            "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SumBoxSet('0502223705')",
+            "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SumBoxSet('0502223705')",
+            "type": "Z_SD_ODATA_ORD_HIST_SRV.SumBox"
+          },
+          "DocNumber": "0502223705",
+          "FinalAmountGrossValue": "    28.97",
+          "TotalGrossDiscount": "     2.90-",
+          "FreightGross": "     2.99",
+          "TotalGrossValue": "    29.06",
+          "PaybackGrossDiscount": "   0.0000"
+        },
+        "HeaderToShipTo": {
+          "__metadata": {
+            "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ShippedToCustomerDataSet('0009737475')",
+            "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ShippedToCustomerDataSet('0009737475')",
+            "type": "Z_SD_ODATA_ORD_HIST_SRV.ShippedToCustomerData"
+          },
+          "CustomerId": "0009737475",
+          "Title": "Herr",
+          "FirstName": "LA-Vorname LA-Nachname",
+          "SecondName": "",
+          "CoName": "",
+          "Street": "LA-Strasse",
+          "HouseNo": "22",
+          "PostalCode": "99999",
+          "City": "LA-ORT",
+          "CountryIso": "DE",
+          "Phone": "",
+          "Mobile": "",
+          "EmailAddress": "oderhistorytest1@fressnapf.com",
+          "ShipToHeader": {
+            "__deferred": {
+              "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ShippedToCustomerDataSet('0009737475')/ShipToHeader"
+            }
+          }
+        },
+        "HeaderToSoldTo": {
+          "__metadata": {
+            "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SoldToCustomerDataSet('0009737476')",
+            "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SoldToCustomerDataSet('0009737476')",
+            "type": "Z_SD_ODATA_ORD_HIST_SRV.SoldToCustomerData"
+          },
+          "CustomerId": "0009737476",
+          "Title": "Herr",
+          "FirstName": "RA-Vorname RA-Nachname",
+          "SecondName": "",
+          "CoName": "",
+          "Street": "RA-Strasse",
+          "HouseNo": "22",
+          "PostalCode": "99999",
+          "City": "RA-ORT",
+          "CountryIso": "DE",
+          "Phone": "",
+          "Mobile": "",
+          "EmailAddress": "oderhistorytest1@fressnapf.com",
+          "SoldToHeader": {
+            "__deferred": {
+              "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SoldToCustomerDataSet('0009737476')/SoldToHeader"
+            }
+          }
+        },
+        "HeaderToLoyalty": {
+          "__metadata": {
+            "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/LoyaltySet('0502223705')",
+            "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/LoyaltySet('0502223705')",
+            "type": "Z_SD_ODATA_ORD_HIST_SRV.Loyalty"
+          },
+          "CardId": "0097233997",
+          "ProgramId": "001",
+          "BasisPoints": 13,
+          "SpecialPoints": 52,
+          "OpportunityPoints": 0,
+          "AnniversaryPoints": 0,
+          "RedemptionPoints": 0,
+          "SapOrderCode": "0502223705"
+        }
+      },
+      {
+        "__metadata": {
+          "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/HeaderDataSet('0502223706')",
+          "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/HeaderDataSet('0502223706')",
+          "type": "Z_SD_ODATA_ORD_HIST_SRV.HeaderData"
+        },
+        "SapOrderCode": "0502223706",
+        "Vkorg": "1110",
+        "CustomerId": "34234009",
+        "ShipTo": "0009737476",
+        "HybrisOrderCode": "707529024",
+        "OrderOverallStatus": "A",
+        "OrderOverallAbsageStatus": "",
+        "OrderOverallLieferStatus": "",
+        "OrderOverallRetourenStatus": "",
+        "OrderDate": "26.04.2020 16:05:1",
+        "TotalAmount": "    31.96",
+        "Currency": "EUR",
+        "Language": "DE",
+        "HeaderToItems": {
+          "results": [
+            {
+              "__metadata": {
+                "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223706',Position='000010')",
+                "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223706',Position='000010')",
+                "type": "Z_SD_ODATA_ORD_HIST_SRV.Items"
+              },
+              "SapOrderCode": "0502223706",
+              "Position": "000010",
+              "Product": "000000000001099134",
+              "Quantity": "    1.000",
+              "Price": "     5.99",
+              "ItemStatus": "A",
+              "AbsageStatus": "A",
+              "LieferStatus": "A",
+              "SapCancelMessage": "",
+              "RetourenStatus": "",
+              "PaymentType": "04",
+              "PaymentType2": "00",
+              "ItemToDelivery": {
+                "results": []
+              }
+            },
+            {
+              "__metadata": {
+                "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223706',Position='000030')",
+                "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223706',Position='000030')",
+                "type": "Z_SD_ODATA_ORD_HIST_SRV.Items"
+              },
+              "SapOrderCode": "0502223706",
+              "Position": "000030",
+              "Product": "000000001214293001",
+              "Quantity": "    1.000",
+              "Price": "     8.99",
+              "ItemStatus": "A",
+              "AbsageStatus": "A",
+              "LieferStatus": "A",
+              "SapCancelMessage": "",
+              "RetourenStatus": "",
+              "PaymentType": "04",
+              "PaymentType2": "00",
+              "ItemToDelivery": {
+                "results": []
+              }
+            },
+            {
+              "__metadata": {
+                "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223706',Position='000040')",
+                "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ItemsSet(SapOrderCode='0502223706',Position='000040')",
+                "type": "Z_SD_ODATA_ORD_HIST_SRV.Items"
+              },
+              "SapOrderCode": "0502223706",
+              "Position": "000040",
+              "Product": "000000000001094172",
+              "Quantity": "    1.000",
+              "Price": "    13.99",
+              "ItemStatus": "A",
+              "AbsageStatus": "A",
+              "LieferStatus": "A",
+              "SapCancelMessage": "",
+              "RetourenStatus": "",
+              "PaymentType": "04",
+              "PaymentType2": "00",
+              "ItemToDelivery": {
+                "results": []
+              }
+            }
+          ]
+        },
+        "HeaderToVouchers": {
+          "results": []
+        },
+        "HeaderToCoupons": {
+          "results": []
+        },
+        "HeaderToSumBox": {
+          "__metadata": {
+            "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SumBoxSet('0502223706')",
+            "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SumBoxSet('0502223706')",
+            "type": "Z_SD_ODATA_ORD_HIST_SRV.SumBox"
+          },
+          "DocNumber": "0502223706",
+          "FinalAmountGrossValue": "    28.97",
+          "TotalGrossDiscount": "     0.00",
+          "FreightGross": "     2.99",
+          "TotalGrossValue": "    31.96",
+          "PaybackGrossDiscount": "   0.0000"
+        },
+        "HeaderToShipTo": {
+          "__metadata": {
+            "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ShippedToCustomerDataSet('0009737476')",
+            "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ShippedToCustomerDataSet('0009737476')",
+            "type": "Z_SD_ODATA_ORD_HIST_SRV.ShippedToCustomerData"
+          },
+          "CustomerId": "0009737476",
+          "Title": "Herr",
+          "FirstName": "RA-Vorname RA-Nachname",
+          "SecondName": "",
+          "CoName": "",
+          "Street": "RA-Strasse",
+          "HouseNo": "22",
+          "PostalCode": "99999",
+          "City": "RA-ORT",
+          "CountryIso": "DE",
+          "Phone": "",
+          "Mobile": "",
+          "EmailAddress": "oderhistorytest1@fressnapf.com",
+          "ShipToHeader": {
+            "__deferred": {
+              "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/ShippedToCustomerDataSet('0009737476')/ShipToHeader"
+            }
+          }
+        },
+        "HeaderToSoldTo": {
+          "__metadata": {
+            "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SoldToCustomerDataSet('0009737476')",
+            "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SoldToCustomerDataSet('0009737476')",
+            "type": "Z_SD_ODATA_ORD_HIST_SRV.SoldToCustomerData"
+          },
+          "CustomerId": "0009737476",
+          "Title": "Herr",
+          "FirstName": "RA-Vorname RA-Nachname",
+          "SecondName": "",
+          "CoName": "",
+          "Street": "RA-Strasse",
+          "HouseNo": "22",
+          "PostalCode": "99999",
+          "City": "RA-ORT",
+          "CountryIso": "DE",
+          "Phone": "",
+          "Mobile": "",
+          "EmailAddress": "oderhistorytest1@fressnapf.com",
+          "SoldToHeader": {
+            "__deferred": {
+              "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/SoldToCustomerDataSet('0009737476')/SoldToHeader"
+            }
+          }
+        },
+        "HeaderToLoyalty": {
+          "__metadata": {
+            "id": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/LoyaltySet('0502223706')",
+            "uri": "https://vhqs1em2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/Z_SD_ODATA_ORD_HIST_SRV/LoyaltySet('0502223706')",
+            "type": "Z_SD_ODATA_ORD_HIST_SRV.Loyalty"
+          },
+          "CardId": "0097233997",
+          "ProgramId": "001",
+          "BasisPoints": 14,
+          "SpecialPoints": 0,
+          "OpportunityPoints": 0,
+          "AnniversaryPoints": 0,
+          "RedemptionPoints": 0,
+          "SapOrderCode": "0502223706"
+        }
+      }
+    ]
+  }
+}

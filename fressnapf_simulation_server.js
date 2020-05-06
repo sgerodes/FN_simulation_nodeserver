@@ -11,37 +11,54 @@ if (!server_name || ! possible_server_names.includes(server_name) ) {
     return;
 }
 
-var newsletter_response = fs.readFileSync("./resources/newsletter/NewsletterSAPCRMResponse.json");
-var order_BW_response = fs.readFileSync("./resources/orderHistory/BWresponse.json");
-var order_RETAIL_response = fs.readFileSync("./resources/orderHistory/RetailResponse.json");
-var order_list_response = fs.readFileSync("./resources/orderHistory/listResponse.json");
+//var newsletter_response = fs.readFileSync("./resources/newsletter/NewsletterSAPCRMResponse.json", "utf8");
+var newsletter_response = fs.readFileSync("./resources/newsletter/response_v2/response.json", "utf8");
+var order_BW_response = fs.readFileSync("./resources/orderHistory/backendservices_response_v2/bw3.json", "utf8");
+var order_RETAIL_response = fs.readFileSync("./resources/orderHistory/backendservices_response_v2/retail3.json", "utf8");
+var order_list_response = fs.readFileSync("./resources/orderHistory/listResponse.json", "utf8");
 
+
+let created_newsletter_datas = {};
+//default data with id 22031794
+created_newsletter_datas['22031794'] = JSON.parse(newsletter_response);
 
 let body;
-let created_newsletter_datas = {};
-const id_regex = /(?<=identificationnumer=')\d+(?=')/gm;
+const id_regex = /(?<=identificationnumber=')\d+(?=')/gm;
 let crm_server = (req, res) => {
     switch (req.method) {
             case 'PUT':
             case 'POST':
-                if (body.length > 0){
-                    let obj = JSON.parse(body);
-                    let id = obj['identificationnumber'];
-                    if (id.length = 0){
-                        console.log("NO identificationnumber received!");
-                    }
-                    created_newsletter_datas[id] = obj;
-                } else {
-                    console.log("No body provided with the POST")
-                }
-                //res.statusCode = 404;
+//                if (body.length > 0){
+//                    let obj = JSON.parse(body);
+//                    obj["bpid"] = "0000152423"
+//                    let id = obj['identificationnumber'];
+//                    if (id.length = 0){
+//                        console.log("NO identificationnumber received!");
+//                    }
+//                    created_newsletter_datas[id] = obj;
+//                    let str = JSON.stringify(obj)
+//                    console.log("Returning object:\n" + str)
+//                    res.end(str);
+//                } else {
+//                    console.log("No body provided with the POST")
+//                    res.statusCode = 400;
+//                    res.end()
+//                }
             case 'GET':
+//                if ("X-CSRF-Token".toLowerCase() in req.headers){
+//                    let token = req.headers["X-CSRF-Token".toLowerCase()];
+//                    if (token == "fetch"){
+//                        res.setHeader("X-CSRF-Token".toLowerCase(), "DUMMY_TOKEN_asda342a");
+//                        res.end();
+//                        return;
+//                    }
+//                }
 //                let id = find_id(req.url);
-//                console.log("Id is id  " + id);
 //                if (id.length > 0){
-//                    let obj = JSON.stringify(created_newsletter_datas[id])
-//                    if (obj.length > 0){
-//                        res.end(obj);
+//                    if (id in created_newsletter_datas){
+//                        let str = JSON.stringify(created_newsletter_datas[id])
+//                            console.log("Returning object:\n" + str)
+//                        res.end(str);
 //                    } else {
 //                        res.statusCode = 404;
 //                        res.end("{}");
@@ -50,19 +67,19 @@ let crm_server = (req, res) => {
 //                    console.log("Id not found in url");
 //                }
                 res.end(newsletter_response);
-                //res.statusCode = 404;
-                //res.end("{}");
-                //res.end(body.substring(0 ,body.length-1) + ", bpid=0000152423}");
                 break;
             case 'DELETE':
                 res.statusCode = 200;
-                //res.statusCode = 404;
-                //res.end("{}");
                 res.end();
                 break;
             default: console.log("received request method not known: ", req.method);
     }
  }
+
+
+let find_id = (url) => {
+    return url.match(id_regex)[0];
+}
 
 let bw_server = (req, res) => {
      switch (req.method) {
@@ -130,20 +147,3 @@ switch (server_name){
 console.log("Started " + server_name + " : " + port + ".");
 server.listen(port);
 
-
-let find_id = (url) => {
-    while ((m = id_regex.exec(url)) !== null) {
-        // This is necessary to avoid infinite loops with zero-width matches
-        if (m.index === id_regex.lastIndex) {
-            regex.lastIndex++;
-        }
-
-        // The result can be accessed through the `m`-variable.
-        m.forEach((match, groupIndex) => {
-            console.log(`Id found: ${match}`);
-            let id = `${match}`;
-            console.log("id is :" + id);
-            return `${match}`;
-        });
-    }
-}

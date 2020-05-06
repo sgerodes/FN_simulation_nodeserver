@@ -1,0 +1,168 @@
+{
+  "d": {
+    "results": [
+      {
+        "__metadata": {
+          "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/HeaderDataSet('502223690')",
+          "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/HeaderDataSet('502223690')",
+          "type": "ZORDERS_ONLINE_SRV.HeaderData"
+        },
+        "SapOrderCode": "502223690",
+        "Vkorg": "1186",
+        "CustomerId": "34234002",
+        "ShipTo": "710000518",
+        "HybrisOrderCode": "707529010",
+        "OrderOverallStatus": "C",
+        "OrderOverallAbsagestatus": "",
+        "OrderOverallLieferstatus": "C",
+        "OrderOverallRetourenstatus": "",
+        "OrderDate": "20200414",
+        "TotalAmount": "     0.00",
+        "Currency": "PLN",
+        "Language": "DE",
+        "HeaderToItems": {
+          "results": [
+            {
+              "__metadata": {
+                "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/ItemsDataSet(SapOrderCode='502223690',Position='000010')",
+                "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/ItemsDataSet(SapOrderCode='502223690',Position='000010')",
+                "type": "ZORDERS_ONLINE_SRV.Items"
+              },
+              "SapOrderCode": "502223690",
+              "Position": "000010",
+              "Product": "1006999",
+              "Quantity": "    4.000",
+              "Price": "    86.40",
+              "ItemStatus": "C",
+              "AbsageStatus": "A",
+              "LieferStatus": "C",
+              "SapCancelMessage": "",
+              "RetourenStatus": "",
+              "PaymentType": "07",
+              "PaymentType2": "",
+              "ItemToDelivery": {
+                "results": [
+                  {
+                    "__metadata": {
+                      "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/ConsignmentSet(SapDeliveryId='801902401',DeliveryPosition='000010')",
+                      "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/ConsignmentSet(SapDeliveryId='801902401',DeliveryPosition='000010')",
+                      "type": "ZORDERS_ONLINE_SRV.Consignment"
+                    },
+                    "SapDeliveryId": "801902401",
+                    "DeliveryPosition": "000010",
+                    "ConsigmentType": "03",
+                    "CarrierId": "2509668",
+                    "CarrierName": "DHL Express Poland Sp. z o.o.",
+                    "DocNumber": "",
+                    "SOrdItem": "000000"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "HeaderToSumBox": {
+          "__metadata": {
+            "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/SumBoxSet('502223690')",
+            "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/SumBoxSet('502223690')",
+            "type": "ZORDERS_ONLINE_SRV.SumBox"
+          },
+          "DocNumber": "502223690",
+          "FinalAmountGrossValue": "    86.40",
+          "TotalGrossDiscount": "     0.00",
+          "FreightGross": "     0.00",
+          "TotalGrossValue": "    86.40",
+          "PaybackGrossDiscount": "    86.40"
+        },
+        "HeaderToCoupons": {
+          "results": [
+            {
+              "__metadata": {
+                "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/LoyaliityCouponsSet(CouponId='PB-BP',SapOrderCode='502223690')",
+                "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/LoyaliityCouponsSet(CouponId='PB-BP',SapOrderCode='502223690')",
+                "type": "ZORDERS_ONLINE_SRV.LoyalityCoupons"
+              },
+              "CouponId": "PB-BP",
+              "ProgramId": "001",
+              "MarketingText": "",
+              "CouponValue": 43,
+              "CouponType": "1",
+              "SapOrderCode": "502223690"
+            },
+            {
+              "__metadata": {
+                "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/LoyaliityCouponsSet(CouponId='PB-OP',SapOrderCode='502223690')",
+                "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/LoyaliityCouponsSet(CouponId='PB-OP',SapOrderCode='502223690')",
+                "type": "ZORDERS_ONLINE_SRV.LoyalityCoupons"
+              },
+              "CouponId": "PB-OP",
+              "ProgramId": "001",
+              "MarketingText": "",
+              "CouponValue": 0,
+              "CouponType": "1",
+              "SapOrderCode": "502223690"
+            }
+          ]
+        },
+        "HeaderToSoldTo": {
+          "__metadata": {
+            "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/SoldToCustomerDataSet('710000518')",
+            "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/SoldToCustomerDataSet('710000518')",
+            "type": "ZORDERS_ONLINE_SRV.SoldToCustomerData"
+          },
+          "CustomerId": "710000518",
+          "Title": "Pan Test Test 1",
+          "FirstName": "Westpreußenstraße 38",
+          "SecondName": "",
+          "CoName": "",
+          "Street": "Westpreußenstraße",
+          "HouseNo": "38",
+          "PostalCode": "02-882",
+          "City": "Warszawa",
+          "Countrylso": "PL",
+          "Phone": "",
+          "Mobile": "",
+          "EmailAddress": "testols-int.team@fressnapf.com"
+        },
+        "HeaderToVouchers": {
+          "results": []
+        },
+        "HeaderToLoyalty": {
+          "__metadata": {
+            "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/LoyalitySet('502223690')",
+            "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/LoyalitySet('502223690')",
+            "type": "ZORDERS_ONLINE_SRV.Loyality"
+          },
+          "CardId": "3083591073819437",
+          "ProgramId": "1",
+          "BasisPoints": 43,
+          "SpecialPoints": 0,
+          "OpportunityPoints": 0,
+          "AnniversaryPoints": 0,
+          "RedemptionPoints": 0,
+          "SapOrderCode": "502223690"
+        },
+        "HeaderToShipTo": {
+          "__metadata": {
+            "id": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/ShipToCustomerDataSet('710000518')",
+            "uri": "https://vhqs1bm3ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZORDERS_ONLINE_SRV/ShipToCustomerDataSet('710000518')",
+            "type": "ZORDERS_ONLINE_SRV.ShipToCustomerData"
+          },
+          "ShipTo": "710000518",
+          "Title": "Pan Test Test 1",
+          "Firstname": "Westpreußenstraße 38",
+          "Secondname": "",
+          "Coname": "",
+          "Street": "Westpreußenstraße",
+          "Houseno": "38",
+          "Postalcode": "02-882",
+          "City": "Warszawa",
+          "Countrylso": "PL",
+          "Phone": "",
+          "Mobile": "",
+          "Emailadress": "testols-int.team@fressnapf.com"
+        }
+      }
+    ]
+  }
+}
