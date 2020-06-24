@@ -1,0 +1,102 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('171')",
+      "uri": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('171')",
+      "type": "ZDP_NEWSLETTER_SRV.newsletter"
+    },
+    "consumer": "0001",
+    "identificationnumber": "171",
+    "vkorg": "1110",
+    "source": "hybris",
+    "bpid": "573408764",
+    "regTrigger": "Muster Marketing Campagne",
+    "interestSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('')",
+            "uri": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/interestSet('')",
+            "type": "ZDP_NEWSLETTER_SRV.interest"
+          },
+          "identificationnumber": "",
+          "interestValue": "dog"
+        }
+      ]
+    },
+    "recipient": {
+      "__metadata": {
+        "id": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('')",
+        "uri": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('')",
+        "type": "ZDP_NEWSLETTER_SRV.recipient"
+      },
+      "identificationnumber": "",
+      "firstname": "Max",
+      "lastname": "Mustermann",
+      "secondname": "M.",
+      "title_aca": "Ph.D.",
+      "birthdate": "2017-07-21",
+      "title": "Mr",
+      "status": "new"
+    },
+    "address": {
+      "__metadata": {
+        "id": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('')",
+        "uri": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('')",
+        "type": "ZDP_NEWSLETTER_SRV.address"
+      },
+      "identificationnumber": "",
+      "emailAddress": "max@musterman.de8",
+      "city": "Musterstadt",
+      "postalCode": "99999",
+      "street": "Musterstrasse",
+      "houseNo": "99",
+      "countryIso": "DE",
+      "phone": "+49 99 99999",
+      "mobile": "+49 999 99999"
+    },
+    "offerSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('')",
+            "uri": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('')",
+            "type": "ZDP_NEWSLETTER_SRV.offer"
+          },
+          "identificationnumber": "",
+          "offerValue": "online"
+        }
+      ]
+    },
+    "petSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('')",
+            "uri": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet('')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "",
+          "id": "1",
+          "name": "Musterdog",
+          "type": "dog",
+          "birthday": "2017-07-21"
+        }
+      ]
+    },
+    "storeSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('')",
+            "uri": "https://vhqs1cm2ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('')",
+            "type": "ZDP_NEWSLETTER_SRV.store"
+          },
+          "identificationnumber": "",
+          "id": "1",
+          "storeValue": "2545"
+        }
+      ]
+    }
+  }
+}

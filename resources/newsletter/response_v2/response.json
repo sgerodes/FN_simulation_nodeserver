@@ -128,26 +128,7 @@
       "mobile": "+49 (111) 11111"
     },
     "offerSet": {
-      "results": [
-        {
-          "__metadata": {
-            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('0000111117')",
-            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('0000111117')",
-            "type": "ZDP_NEWSLETTER_SRV.offer"
-          },
-          "identificationnumber": "0000111117",
-          "offerValue": "market"
-        },
-        {
-          "__metadata": {
-            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('0000111117')",
-            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/offerSet('0000111117')",
-            "type": "ZDP_NEWSLETTER_SRV.offer"
-          },
-          "identificationnumber": "0000111117",
-          "offerValue": "online"
-        }
-      ]
+      "results": []
     },
     "petSet": {
       "results": [
@@ -207,9 +188,9 @@
           },
           "identificationnumber": "0000111117",
           "id": "5",
-          "name": "myTerra",
-          "type": "terraristics",
-          "birthday": "15.01.2020"
+          "name": "",
+          "type": "",
+          "birthday": ""
         }
       ]
     },
@@ -243,7 +224,7 @@
           },
           "identificationnumber": "0000111117",
           "id": "3",
-          "storeValue": "4711"
+          "storeValue": ""
         }
       ]
     }

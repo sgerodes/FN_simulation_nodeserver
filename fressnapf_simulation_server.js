@@ -12,9 +12,9 @@ if (!server_name || ! possible_server_names.includes(server_name) ) {
 }
 
 //var newsletter_response = fs.readFileSync("./resources/newsletter/NewsletterSAPCRMResponse.json", "utf8");
-var newsletter_response = fs.readFileSync("./resources/newsletter/response_v2/response.json", "utf8");
-var order_BW_response = fs.readFileSync("./resources/orderHistory/backendservices_response_v2/bw3.json", "utf8");
-var order_RETAIL_response = fs.readFileSync("./resources/orderHistory/backendservices_response_v2/retail3.json", "utf8");
+var newsletter_response = fs.readFileSync("./resources/newsletter/response_v2/response_3.json", "utf8");
+var order_BW_response = fs.readFileSync("./resources/orderHistory/backendservices_response_v2/bw5.json", "utf8");
+var order_RETAIL_response = fs.readFileSync("./resources/orderHistory/backendservices_response_v2/retail5_with_minus.json", "utf8");
 var order_list_response = fs.readFileSync("./resources/orderHistory/listResponse.json", "utf8");
 
 

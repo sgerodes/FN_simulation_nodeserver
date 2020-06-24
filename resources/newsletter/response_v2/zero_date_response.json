@@ -1,0 +1,58 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('367')",
+      "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('367')",
+      "type": "ZDP_NEWSLETTER_SRV.newsletter"
+    },
+    "consumer": "0001",
+    "identificationnumber": "367",
+    "vkorg": "1110",
+    "source": "hybris",
+    "bpid": "570001883",
+    "regTrigger": "",
+    "interestSet": {
+      "results": []
+    },
+    "recipient": {
+      "__metadata": {
+        "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('367')",
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('367')",
+        "type": "ZDP_NEWSLETTER_SRV.recipient"
+      },
+      "identificationnumber": "367",
+      "firstname": "",
+      "lastname": "",
+      "secondname": "",
+      "title_aca": "",
+      "birthdate": "00000000",
+      "title": "Mr",
+      "status": "new"
+    },
+    "address": {
+      "__metadata": {
+        "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('367')",
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('367')",
+        "type": "ZDP_NEWSLETTER_SRV.address"
+      },
+      "identificationnumber": "367",
+      "emailAddress": "max@musterman.de6",
+      "city": "",
+      "postalCode": "",
+      "street": "",
+      "houseNo": "",
+      "countryIso": "DE",
+      "phone": "",
+      "mobile": ""
+    },
+    "offerSet": {
+      "results": []
+    },
+    "petSet": {
+      "results": []
+    },
+    "storeSet": {
+      "results": []
+    }
+  }
+}
