@@ -105,15 +105,16 @@ let retail_server = (req, res) => {
 
 const server = http.createServer((req, res) => {
     body = '';
-    LOG("\n" + server_name + " received request: ", req.method, req.url, '\n')
-    LOG("Headers :\n" + JSON.stringify(req.headers) + "\n");
+   LOG('vvvvvvvvvvvvvvvvvvvvvvvvvv Start OF REQUEST vvvvvvvvvvvvvvvvvvvvvvvvvv');
+    LOG(server_name + " received request: " + req.method + req.url)
+    LOG("Headers :\n" + JSON.stringify(req.headers, undefined, 2));
     req.on('data', chunk => {
         body += chunk.toString();
+        LOG("Body :\n" + JSON.stringify(JSON.parse(chunk.toString()),undefined, 2))
     });
 
     req.on('end', () => {
-        LOG("Body :\n" + body);
-        LOG('--------------------------------END OF REQUEST--------------------------------');
+        LOG('-------------------------------- END OF REQUEST --------------------------------');
         switch (server_name) {
             case possible_server_names[0]:
                 crm_server(req, res);
