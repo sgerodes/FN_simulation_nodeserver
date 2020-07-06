@@ -7,7 +7,7 @@ const possible_server_names = ["CRM", "BW", "RETAIL"]
 
 let server_name = process.argv[2].toUpperCase()
 if (!server_name || ! possible_server_names.includes(server_name) ) {
-    console.log("Specify the server to start. Possible arguments = " + possible_server_names)
+    LOG("Specify the server to start. Possible arguments = " + possible_server_names)
     return;
 }
 
@@ -34,14 +34,14 @@ let crm_server = (req, res) => {
 //                    obj["bpid"] = "0000152423"
 //                    let id = obj['identificationnumber'];
 //                    if (id.length = 0){
-//                        console.log("NO identificationnumber received!");
+//                        LOG("NO identificationnumber received!");
 //                    }
 //                    created_newsletter_datas[id] = obj;
 //                    let str = JSON.stringify(obj)
-//                    console.log("Returning object:\n" + str)
+//                    LOG("Returning object:\n" + str)
 //                    res.end(str);
 //                } else {
-//                    console.log("No body provided with the POST")
+//                    LOG("No body provided with the POST")
 //                    res.statusCode = 400;
 //                    res.end()
 //                }
@@ -58,14 +58,14 @@ let crm_server = (req, res) => {
 //                if (id.length > 0){
 //                    if (id in created_newsletter_datas){
 //                        let str = JSON.stringify(created_newsletter_datas[id])
-//                            console.log("Returning object:\n" + str)
+//                            LOG("Returning object:\n" + str)
 //                        res.end(str);
 //                    } else {
 //                        res.statusCode = 404;
 //                        res.end("{}");
 //                    }
 //                } else {
-//                    console.log("Id not found in url");
+//                    LOG("Id not found in url");
 //                }
                 res.end(newsletter_response);
                 break;
@@ -73,7 +73,7 @@ let crm_server = (req, res) => {
                 res.statusCode = 200;
                 res.end();
                 break;
-            default: console.log("received request method not known: ", req.method);
+            default: LOG("received request method not known: ", req.method);
     }
  }
 
@@ -87,7 +87,7 @@ let bw_server = (req, res) => {
              case 'GET':
                     res.end(order_BW_response);
                      break;
-             default: console.log("received request method not known: ", req.method);
+             default: LOG("received request method not known: ", req.method);
       }
  }
 
@@ -96,7 +96,7 @@ let retail_server = (req, res) => {
              case 'GET':
                     res.end(order_RETAIL_response);
                     break;
-             default: console.log("received request method not known: ", req.method);
+             default: LOG("received request method not known: ", req.method);
       }
  }
 
@@ -105,15 +105,15 @@ let retail_server = (req, res) => {
 
 const server = http.createServer((req, res) => {
     body = '';
-    console.log("\n" + server_name + " received request: ", req.method, req.url, '\n')
-    console.log("Headers :\n" + JSON.stringify(req.headers) + "\n");
+    LOG("\n" + server_name + " received request: ", req.method, req.url, '\n')
+    LOG("Headers :\n" + JSON.stringify(req.headers) + "\n");
     req.on('data', chunk => {
         body += chunk.toString();
     });
 
     req.on('end', () => {
-        console.log("Body :\n" + body);
-        console.log('--------------------------------END OF REQUEST--------------------------------');
+        LOG("Body :\n" + body);
+        LOG('--------------------------------END OF REQUEST--------------------------------');
         switch (server_name) {
             case possible_server_names[0]:
                 crm_server(req, res);
@@ -130,6 +130,17 @@ const server = http.createServer((req, res) => {
 
 });
 
+let LOG = (msg) => {
+    var currentdate = new Date();
+    var datetime = currentdate.getDate() + "/"
+                                    + (currentdate.getMonth()+1)  + "/"
+                                    + currentdate.getFullYear() + " "
+                                    + currentdate.getHours() + ":"
+                                    + currentdate.getMinutes() + ":"
+                                    + currentdate.getSeconds();
+    console.log("[" + datetime + "] "+ msg);
+}
+
 let port;
 switch (server_name){
     case possible_server_names[0]:
@@ -142,9 +153,9 @@ switch (server_name){
         port = 9997;
         break;
     default:
-        console.log("Unknown name of the server");
+        LOG("Unknown name of the server");
         return;
 }
-console.log("Started " + server_name + " : " + port + ".");
+LOG("Started " + server_name + " : " + port + ".");
 server.listen(port);
 
