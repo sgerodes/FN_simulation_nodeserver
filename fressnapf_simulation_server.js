@@ -11,8 +11,8 @@ if (!server_name || ! possible_server_names.includes(server_name) ) {
     return;
 }
 
-//var newsletter_response = fs.readFileSync("./resources/newsletter/NewsletterSAPCRMResponse.json", "utf8");
-var newsletter_response = fs.readFileSync("./resources/newsletter/response_v2_0/response.json", "utf8");
+//var newsletter_response = fs.readFileSync("./resources/newsletter/response_v2_0/get_full_response.json", "utf8");
+var newsletter_response = fs.readFileSync("./resources/newsletter/response_v2_0/SCP-183.json", "utf8");
 
 var order_BW_response = fs.readFileSync("./resources/orderHistory/backendservices_response_v2/bw5.json", "utf8");
 var order_RETAIL_response = fs.readFileSync("./resources/orderHistory/backendservices_response_v2/retail5_with_minus.json", "utf8");
@@ -28,6 +28,9 @@ const id_regex = /(?<=identificationnumber=')\d+(?=')/gm;
 let crm_server = (req, res) => {
     switch (req.method) {
             case 'PUT':
+                res.statusCode = 204;
+                res.end();
+                break;
             case 'POST':
 //                if (body.length > 0){
 //                    let obj = JSON.parse(body);
@@ -67,6 +70,7 @@ let crm_server = (req, res) => {
 //                } else {
 //                    LOG("Id not found in url");
 //                }
+                res.statusCode = 200;
                 res.end(newsletter_response);
                 break;
             case 'DELETE':

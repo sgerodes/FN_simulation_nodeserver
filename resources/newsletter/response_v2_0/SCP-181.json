@@ -1,0 +1,195 @@
+{
+  "d": {
+    "__metadata": {
+      "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('936')",
+      "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('936')",
+      "type": "ZDP_NEWSLETTER_SRV.newsletter"
+    },
+    "consumer": "0001",
+    "identificationnumber": "936",
+    "vkorg": "1110",
+    "source": "hybris",
+    "bpid": "0570002424",
+    "regTrigger": "",
+    "address": {
+      "__metadata": {
+        "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('936')",
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/addressSet('936')",
+        "type": "ZDP_NEWSLETTER_SRV.address"
+      },
+      "identificationnumber": "936",
+      "emailAddress": "danny_1594205033296_@default.de",
+      "city": "",
+      "postalCode": "",
+      "street": "",
+      "houseNo": "",
+      "countryIso": "DE",
+      "phone": "",
+      "mobile": ""
+    },
+    "recipient": {
+      "__metadata": {
+        "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('936')",
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/recipientSet('936')",
+        "type": "ZDP_NEWSLETTER_SRV.recipient"
+      },
+      "identificationnumber": "936",
+      "firstname": "",
+      "lastname": "",
+      "secondname": "",
+      "title_aca": "",
+      "birthdate": "00000000",
+      "title": "Mr",
+      "status": "new"
+    },
+    "interestSet": {
+      "results": []
+    },
+    "offerSet": {
+      "results": []
+    },
+    "petSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='1')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='1')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "936",
+          "id": "1",
+          "name": "Musterdog",
+          "type": "dog",
+          "birthday": "",
+          "race": "AFFENPINSCHER",
+          "weight": "MAXI",
+          "pet_incompatibilitiesSet": {
+            "results": []
+          },
+          "pet_activitylevelSet": {
+            "results": []
+          }
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='2')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='2')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "936",
+          "id": "2",
+          "name": "",
+          "type": "",
+          "birthday": "",
+          "race": "AFFENPINSCHER",
+          "weight": "MAXI",
+          "pet_incompatibilitiesSet": {
+            "results": []
+          },
+          "pet_activitylevelSet": {
+            "results": []
+          }
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='3')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='3')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "936",
+          "id": "3",
+          "name": "",
+          "type": "",
+          "birthday": "",
+          "race": "AFFENPINSCHER",
+          "weight": "MAXI",
+          "pet_incompatibilitiesSet": {
+            "results": []
+          },
+          "pet_activitylevelSet": {
+            "results": []
+          }
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='4')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='4')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "936",
+          "id": "4",
+          "name": "",
+          "type": "",
+          "birthday": "",
+          "race": "AFFENPINSCHER",
+          "weight": "MAXI",
+          "pet_incompatibilitiesSet": {
+            "results": []
+          },
+          "pet_activitylevelSet": {
+            "results": []
+          }
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='5')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/petSet(identificationnumber='936',id='5')",
+            "type": "ZDP_NEWSLETTER_SRV.pet"
+          },
+          "identificationnumber": "936",
+          "id": "5",
+          "name": "",
+          "type": "",
+          "birthday": "",
+          "race": "AFFENPINSCHER",
+          "weight": "MAXI",
+          "pet_incompatibilitiesSet": {
+            "results": []
+          },
+          "pet_activitylevelSet": {
+            "results": []
+          }
+        }
+      ]
+    },
+    "storeSet": {
+      "results": [
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('936')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('936')",
+            "type": "ZDP_NEWSLETTER_SRV.store"
+          },
+          "identificationnumber": "936",
+          "id": "1",
+          "storeValue": ""
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('936')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('936')",
+            "type": "ZDP_NEWSLETTER_SRV.store"
+          },
+          "identificationnumber": "936",
+          "id": "2",
+          "storeValue": ""
+        },
+        {
+          "__metadata": {
+            "id": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('936')",
+            "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/storeSet('936')",
+            "type": "ZDP_NEWSLETTER_SRV.store"
+          },
+          "identificationnumber": "936",
+          "id": "3",
+          "storeValue": ""
+        }
+      ]
+    },
+    "segmentSet": {
+      "__deferred": {
+        "uri": "https://vhqs1cm1ci.hec.fressnapf.com:44300/sap/opu/odata/sap/ZDP_NEWSLETTER_SRV/newsletterSet('936')/segmentSet"
+      }
+    }
+  }
+}
